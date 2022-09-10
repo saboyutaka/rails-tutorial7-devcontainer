@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  app:
+    build:
+      context: .
+      args:
+        VARIANT: '3.1-bullseye'
+        BUNDLER_VERSION: '2.3.14'
+        RAILS_VERSIONS: '7.0.3'
+        NODE_VERSION: '16'
+    environment:
+      BINDING: 0.0.0.0
+    volumes:
+      - ..:/home/vscode/environment:cached
+      - bundle-volume:/usr/local/bundle
+    command: sleep infinity
+volumes:
+  bundle-volume:
