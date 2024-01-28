@@ -13,3 +13,4 @@ ENV BUNDLE_PATH='/usr/local/bundle'
 # Install Rails
 ARG RAILS_VERSIONS='7.0.3'
 RUN gem install rails -v ${RAILS_VERSIONS}
+RUN gem install ruby-lsp

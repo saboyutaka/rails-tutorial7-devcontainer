@@ -16,8 +16,10 @@
         "esbenp.prettier-vscode"
       ],
       "settings": {
-        "ruby.useLanguageServer": true,
-        "ruby.useBundler": true
+        "rubyLsp.rubyVersionManager": "none",
+        "[ruby]": {
+          "editor.defaultFormatter": "Shopify.ruby-lsp"
+        }
       }
     }
   },
