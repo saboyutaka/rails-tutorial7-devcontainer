@@ -10,7 +10,7 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "rebornix.Ruby",
+        "Shopify.ruby-lsp",
         "redhat.vscode-yaml",
         "VisualStudioExptTeam.vscodeintellicode",
         "esbenp.prettier-vscode"
